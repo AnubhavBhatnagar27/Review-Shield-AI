@@ -1,0 +1,13 @@
+# Ignore datasets
+*.csv
+dataset/
+data/
+
+# Ignore cache files
+__pycache__/
+.ipynb_checkpoints/
+
+# Ignore specific dataset files
+backend/final_reviews_dataset.csv
+dataset/Fake Reviews Dataset/fake reviews dataset.csv
+dataset/Sentimental Analysis (IMDB Dataset)/IMDB Dataset.csv

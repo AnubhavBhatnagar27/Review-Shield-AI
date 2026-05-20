@@ -1,7 +1,12 @@
-import AppRoutes from "./routes/AppRoutes";
+import "./App.css";
+
+import ReviewForm from "./components/ReviewForm";
 
 function App() {
-  return <AppRoutes />;
+
+  return (
+    <ReviewForm />
+  );
 }
 
 export default App;

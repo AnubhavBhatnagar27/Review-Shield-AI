@@ -16,7 +16,7 @@ router.post("/analyze", async (req, res) => {
 
     // Run Python script
     const pythonProcess = spawn(
-      "C:\\Users\\Anubhav\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "python3",
       ["predict.py"]
     );
 

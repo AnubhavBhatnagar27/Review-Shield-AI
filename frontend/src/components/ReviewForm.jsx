@@ -31,8 +31,8 @@ const ReviewForm = () => {
 
       setLoading(true);
 
-      const response = await axios.post(
-        "http://localhost:5000/api/reviews/analyze",
+      const response = await axios.post(    
+        "https://review-shield-ai-1.onrender.com/api/reviews/analyze",
         formData
       );
 
@@ -42,7 +42,12 @@ const ReviewForm = () => {
 
       console.log(error);
 
-      alert("Something went wrong");
+      console.log(error);
+
+        alert(
+        error.response?.data?.error ||
+        error.message
+        );
     }
 
     setLoading(false);

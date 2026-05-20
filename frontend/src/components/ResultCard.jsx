@@ -8,7 +8,7 @@ const ResultCard = ({ result }) => {
 
       <p>
 
-        <strong>Review Type:</strong>
+        <strong>Review Type: </strong>
 
         {result.fakeOrReal}
 
@@ -16,7 +16,7 @@ const ResultCard = ({ result }) => {
 
       <p>
 
-        <strong>Sentiment:</strong>
+        <strong>Sentiment: </strong>
 
         {result.sentiment}
 
